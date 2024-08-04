@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US" data-theme="light">
+
+<head>
+  <title>Welcome to Luveedu Cloud</title>
+  <meta name="robots" content="noindex" />
+  <link rel="stylesheet" href="https://cdn.luveedu.com/errorpages/assets/mystyle.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="https://code.luveedu.com/uploads/lc-logo.png" />
+</head>
+
+<body>
+  <div class="section">
+    <img src="https://code.luveedu.com/uploads/lc-logo.png" class="logo" />
+    <h1>Welcome to Luveedu Cloud</h1>
+    <p class="subheading">
+      One of the Fastest, Reliable, Highly Scalable Web Hosting Provider &
+      Domain, DNS, CDN, Network Security Provider.
+    </p>
+    <a class="button" href="https://cloud.luveedu.com">Explore Luveedu Cloud</a>
+  </div>
+  <div class="mainbody">
+    <div class="option">
+      <span class="iconic"><i class="icon" data-feather="server"></i></span>
+      <p class="name">Web Hosting</p>
+      <p class="description">
+        Explore the fastest web hosting, cloud servers and reseller plans.
+      </p>
+      <a class="button" href="https://cloud.luveedu.com/shared-hosting/#explore">Choose Hosting</a>
+    </div>
+    <div class="option">
+      <span class="iconic"><i class="icon" data-feather="globe"></i></span>
+      <p class="name">Budget Domains</p>
+      <p class="description">
+        Buy Domains starting from very lowest price with Ultimate Privacy.
+      </p>
+      <a class="button" href="https://manager.luveedu.cloud/cart.php?a=add&domain=register">Search Domains</a>
+    </div>
+    <div class="option">
+      <span class="iconic"><i class="icon" data-feather="zap"></i></span>
+      <p class="name">Speed & Security</p>
+      <p class="description">
+        Luveedu Cloud CDN, DNS, Shield & Storage helps to stay online.
+      </p>
+      <a class="button" href="https://cloud.luveedu.com/shared-hosting">Setup Luveedu</a>
+    </div>
+  </div>
+  <script src="https://cdn.luveedu.com/library/feather.min.js"></script>
+  <script defer>
+    feather.replace();
+  </script>
+</body>
+
+</html>

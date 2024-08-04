@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&display=swap');
+
+body {
+  background-color: #fbfcff;
+  font-family: Be Vietnam Pro;
+  width: 100%;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+}
+.noscroll {
+    overflow: hidden !important;
+}
+.hide {
+    display: none !important;
+}
+.full {
+    min-height: 100vh !important;
+    padding-top: 13% !important;
+}
+.section {
+  background-color: #e7eaff;
+  height: 300px;
+  position: relative;
+  width: 100%;
+  padding: 3.2% 0% 8% 16%;
+}
+.logo {
+  height: 45px;
+  width: 45px;
+}
+h1 {
+  font-size: 50px;
+  font-family: Outfit;
+  margin: 25px 0 0;
+  padding: 0;
+  color: #070133;
+  font-weight: 700;
+}
+p {
+  font-family: Be Vietnam Pro;
+  color: #373739;
+  margin: 10px 0 0;
+  padding: 0;
+  line-height: 1.5em;
+}
+.subheading {
+  font-size: 22px;
+  font-weight: 600;
+  width: 52%;
+}
+.button {
+  background: #1e1087;
+  color: #FFF !important;
+  padding: 12px 22px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Be Vietnam Pro;
+  margin: 25px 0 0;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+.option .button {
+  padding: 10px 20px !important;
+  margin-top: 15px;
+}
+.mainbody {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 16%;
+  margin-top: -80px;
+  z-index: 9;
+  position: relative;
+}
+.option {
+  background: #FFF;
+  border-radius: 10px;
+  border: 1px solid #e7eaff;
+  padding: 15px;
+  box-shadow: 0px 0px 5px #dfdff1ae;
+  width: 28.7%;
+}
+.iconic {
+  background-color: #e7eaff;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.icon {
+  color: #1e1087;
+  height: 18px;
+  width: 18px;
+}
+.name {
+  color: #070133;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.description {
+  font-size: 15px;
+  color: #3d3d3d;
+  margin: 7px 0 0 !important;
+}
+.error-code {
+  letter-spacing: 10px;
+  color: gray;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 17px;
+  margin: 22px 0 -15px;
+}
+@media only screen and (max-width: 768px) {
+body {
+  overflow-y: auto;
+}
+body.noscroll {
+    overflow: hidden !important;
+}
+.logo {
+  height: 40px;
+  width: 40px;
+}
+h1 {
+  font-size: 25px;
+  line-height: 1.2em;
+}
+.full {
+    padding-top: 45% !important;
+}
+.subheading {
+  font-size: 15px;
+  width: 94%;
+}
+.section {
+  padding: 40px 20px 0;
+  height: 440px;
+}
+.mainbody {
+  flex-direction: column;
+  padding: 0 20px 20px;
+  margin-top: -150px;
+}
+.option {
+  margin-bottom: 20px;
+  width: -webkit-fill-available;
+}
+.error-code {
+  font-size: 15px;
+}
+}
